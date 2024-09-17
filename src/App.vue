@@ -1,6 +1,6 @@
 <script setup>
 import { ref , computed, provide } from 'vue';
-import { RouterView } from 'vue-router'
+import { RouterView } from 'vue-router';
 
 
 const isSidebarOpen = ref(false);
