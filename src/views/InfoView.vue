@@ -130,7 +130,11 @@ onMounted(async () => {
             { property: 'og:title', content: `${anime.value.title} | AniNight` },
             { property: 'og:keywords', content: `${anime.value.title}, ${anime.value.categories}, ${anime.value.season}, ${anime.value.animetype}, ${anime.value.year} , ${anime.value.Source} , ${anime.value.studio}, ค้นหาอนิเมะ, ดูอนิเมะ` },
             { property: 'og:description', content: anime.value.synopsis },
-            { property: 'og:image', content: getImageUrl(anime.value.poster) }
+            { property: 'og:image', content: getImageUrl(anime.value.poster) },
+            { property: 'og:image:width', content: '720' },
+            { property: 'og:image:height', content: '1030' },
+            { property: 'og:site_name', content: 'anime.ani-night.online' },
+            { property: 'og:url', content: `anime.ani-night.online/anime/${anime.value.urlslug}` }
         ];
 
         // Remove existing meta tags

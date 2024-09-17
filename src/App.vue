@@ -1,6 +1,7 @@
 <script setup>
-import { ref , computed, provide } from 'vue';
+import { ref , computed, provide, defineEmits } from 'vue';
 import { RouterView } from 'vue-router'
+import LoginPopup from './components/LoginPopup.vue';
 
 
 const isSidebarOpen = ref(false);
@@ -49,6 +50,7 @@ provide('contentMarginLeft', contentMarginLeft);
 
 .sidebar-aninight {
   position: fixed;
+  z-index: 99;
   width: 272px;
   height: 100%;
   transition: width 0.3s ease-in-out;
