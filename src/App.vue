@@ -1,7 +1,6 @@
 <script setup>
-import { ref , computed, provide, defineEmits } from 'vue';
+import { ref , computed, provide } from 'vue';
 import { RouterView } from 'vue-router'
-import LoginPopup from './components/LoginPopup.vue';
 
 
 const isSidebarOpen = ref(false);
