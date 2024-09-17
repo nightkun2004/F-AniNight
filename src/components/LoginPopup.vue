@@ -24,7 +24,7 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch, defineEmits } from 'vue';
 import { useStore } from 'vuex';
 import { useRouter } from 'vue-router';
 import instance from '@/axios';

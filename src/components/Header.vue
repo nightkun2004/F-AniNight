@@ -1,6 +1,4 @@
 <script setup>
-import { ref, computed, defineEmits } from 'vue';
-
 </script>
 
 <template> 
