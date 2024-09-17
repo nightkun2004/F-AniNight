@@ -45,7 +45,6 @@ const errorMessage = ref('');
 
 // Vuex store and router
 const store = useStore();
-const router = useRouter();
 
 // Close Popup
 const closePopup = () => {
