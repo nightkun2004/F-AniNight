@@ -118,14 +118,14 @@ function getImageUrl(image) {
     if (image.startsWith('http') || image.startsWith('https')) {
         return image;
     } else {
-        return `https://anime.ani-night.online/uploads/profiles/${image}`;
+        return `https://ani-night.online/uploads/profiles/${image}`;
     }
 }
 function getImageUrlBanner(image) {
     if (image.startsWith('http') || image.startsWith('https')) {
         return image;
     } else {
-        return `https://anime.ani-night.online/uploads/banners/${image}`;
+        return `https://ani-night.online/uploads/banners/${image}`;
     }
 }
 </script>
